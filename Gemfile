@@ -2,6 +2,10 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+git_source(:github) {|skufsiweb| "https://github.com/skufsi-web" }
 
-# gem "rails"
+gem "nokogiri"
+gem "rack", "~> 2.2.4"
+gem "rspec"
+gem "jekyll", "~> 4.0"
+gem "webrick", "~> 1.9"
